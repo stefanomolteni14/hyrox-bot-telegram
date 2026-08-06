@@ -1,6 +1,7 @@
 import json
 from datetime import datetime
 from unittest.mock import patch, MagicMock
+from zoneinfo import ZoneInfo
 
 import send_daily
 from send_daily import parse_week_table
@@ -16,10 +17,6 @@ WEEK_TABLE = """\
 | Martedì | 2026-08-11 | Forza inferiore pesante + 10 min corsa compromessa |
 | Domenica | 2026-08-16 | RIPOSO |
 """
-
-
-def test_sanity():
-    assert True
 
 
 def test_parse_week_table_extracts_rows():
@@ -60,6 +57,12 @@ def test_get_message_for_date_returns_alert_when_missing():
     assert msg == ALERT_MESSAGE
 
 
+def test_get_message_for_date_returns_alert_when_sessione_empty():
+    week = {"2026-08-12": ("Mercoledì", "   ")}
+    msg = get_message_for_date(week, "2026-08-12")
+    assert msg == ALERT_MESSAGE
+
+
 def test_should_run_true_at_9():
     assert should_run(datetime(2026, 8, 10, 9, 2)) is True
 
@@ -67,6 +70,12 @@ def test_should_run_true_at_9():
 def test_should_run_false_other_hours():
     assert should_run(datetime(2026, 8, 10, 7, 0)) is False
     assert should_run(datetime(2026, 8, 10, 10, 0)) is False
+
+
+def test_should_run_with_scheduled_cron_matching_summer_offset():
+    now = datetime(2026, 8, 10, 9, 0, tzinfo=ZoneInfo("Europe/Rome"))
+    assert should_run(now, scheduled_cron="0 7 * * *") is True
+    assert should_run(now, scheduled_cron="0 8 * * *") is False
 
 
 def test_send_telegram_message_calls_correct_endpoint():
@@ -95,9 +104,10 @@ def test_main_sends_message_when_should_run_true(tmp_path, monkeypatch):
     with patch("send_daily.send_telegram_message") as mock_send:
         send_daily.main(now=datetime(2026, 8, 10, 9, 0))
 
-        mock_send.assert_called_once_with("FAKE_TOKEN", "12345", send_daily.get_message_for_date(
-            {"2026-08-10": ("Lunedì", "Corsa soglia")}, "2026-08-10"
-        ))
+        mock_send.assert_called_once_with(
+            "FAKE_TOKEN", "12345",
+            "🏋️ Allenamento di oggi (Lunedì 2026-08-10):\nCorsa soglia",
+        )
 
 
 def test_main_does_nothing_when_should_run_false(tmp_path, monkeypatch):
@@ -115,3 +125,46 @@ def test_main_does_nothing_when_should_run_false(tmp_path, monkeypatch):
         send_daily.main(now=datetime(2026, 8, 10, 14, 0))
 
         mock_send.assert_not_called()
+
+
+def test_main_sends_rest_message_on_riposo_day(tmp_path, monkeypatch):
+    week_file = tmp_path / "settimana-corrente.md"
+    week_file.write_text(
+        "| Giorno | Data | Sessione |\n|---|---|---|\n"
+        "| Lunedì | 2026-08-10 | RIPOSO |\n",
+        encoding="utf-8",
+    )
+    monkeypatch.setattr(send_daily, "WEEK_FILE", str(week_file))
+    monkeypatch.setenv("TELEGRAM_BOT_TOKEN", "FAKE_TOKEN")
+    monkeypatch.setenv("TELEGRAM_CHAT_ID", "12345")
+
+    with patch("send_daily.send_telegram_message") as mock_send:
+        send_daily.main(now=datetime(2026, 8, 10, 9, 0))
+
+        mock_send.assert_called_once_with("FAKE_TOKEN", "12345", REST_MESSAGE)
+
+
+def test_main_sends_alert_message_when_date_missing(tmp_path, monkeypatch):
+    week_file = tmp_path / "settimana-corrente.md"
+    week_file.write_text(
+        "| Giorno | Data | Sessione |\n|---|---|---|\n"
+        "| Martedì | 2026-08-11 | Corsa soglia |\n",
+        encoding="utf-8",
+    )
+    monkeypatch.setattr(send_daily, "WEEK_FILE", str(week_file))
+    monkeypatch.setenv("TELEGRAM_BOT_TOKEN", "FAKE_TOKEN")
+    monkeypatch.setenv("TELEGRAM_CHAT_ID", "12345")
+
+    with patch("send_daily.send_telegram_message") as mock_send:
+        send_daily.main(now=datetime(2026, 8, 10, 9, 0))
+
+        mock_send.assert_called_once_with("FAKE_TOKEN", "12345", ALERT_MESSAGE)
+
+
+def test_real_week_file_has_seven_valid_days():
+    with open(send_daily.WEEK_FILE, encoding="utf-8") as f:
+        week = parse_week_table(f.read())
+    assert len(week) == 7
+    dates = sorted(datetime.strptime(d, "%Y-%m-%d") for d in week)
+    assert (dates[-1] - dates[0]).days == 6
+    assert all(sessione.strip() for _, sessione in week.values())

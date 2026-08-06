@@ -3,7 +3,7 @@
 import json
 import os
 import re
-import sys
+import urllib.error
 import urllib.request
 from datetime import datetime
 from zoneinfo import ZoneInfo
@@ -38,13 +38,25 @@ def get_message_for_date(week: dict[str, tuple[str, str]], date_str: str) -> str
     if date_str not in week:
         return ALERT_MESSAGE
     giorno, sessione = week[date_str]
-    if sessione.strip().upper() == "RIPOSO":
+    sessione = sessione.strip()
+    if not sessione:
+        return ALERT_MESSAGE
+    if sessione.upper() == "RIPOSO":
         return REST_MESSAGE
     return f"🏋️ Allenamento di oggi ({giorno} {date_str}):\n{sessione}"
 
 
-def should_run(now) -> bool:
-    """True solo se l'ora locale di Roma è le 9 — guardia contro il doppio trigger cron UTC."""
+def should_run(now: datetime, scheduled_cron: "str | None" = None) -> bool:
+    """True se è il momento giusto per inviare — guardia contro il doppio trigger cron UTC.
+
+    Se `scheduled_cron` è valorizzato (run schedulato da GitHub Actions), la guardia
+    si basa su quale dei due cron ha innescato il run, non sull'ora locale attuale:
+    robusto ai ritardi dello scheduler. Altrimenti ricade sull'ora locale di Roma.
+    """
+    if scheduled_cron:
+        offset_h = int(now.utcoffset().total_seconds() // 3600)
+        expected = "0 7 * * *" if offset_h == 2 else "0 8 * * *"
+        return scheduled_cron == expected
     return now.hour == 9
 
 
@@ -55,13 +67,17 @@ def send_telegram_message(token: str, chat_id: str, text: str) -> None:
     request = urllib.request.Request(
         url, data=payload, headers={"Content-Type": "application/json"}
     )
-    with urllib.request.urlopen(request) as response:
-        response.read()
+    try:
+        with urllib.request.urlopen(request, timeout=30) as response:
+            response.read()
+    except urllib.error.HTTPError as e:
+        raise RuntimeError(f"Telegram API ha risposto {e.code}") from None
 
 
 def main(now: "datetime | None" = None) -> None:
     now = now or datetime.now(ROME_TZ)
-    if not should_run(now):
+    scheduled_cron = os.environ.get("SCHEDULED_CRON")
+    if not should_run(now, scheduled_cron=scheduled_cron) and os.environ.get("FORCE_SEND") != "true":
         return
 
     token = os.environ["TELEGRAM_BOT_TOKEN"]
