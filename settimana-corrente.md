@@ -4,10 +4,10 @@ Aggiornato durante il check-in settimanale (vedi Personal/Hyrox/log-settimanale.
 
 | Giorno | Data | Sessione |
 |---|---|---|
-| Lunedì | 2026-10-12 | FORZA INFERIORE: squat 105kg, FILMATO DA DIETRO. Prima, TEST KNEE-TO-WALL sinistra vs destra (cm per piede, nota se il tallone si alza o il piede rotola dentro). Poi hip thrust 50kg 4x8-10, RDL 85/90/95kg con strap, bulgaro 30kg 3x10, leg curl 37.5kg 3x8, core, corsa compromessa 12' |
-| Martedì | 2026-10-13 | NON TI ALLENI (impegni) |
-| Mercoledì | 2026-10-14 | FORZA UPPER. Core per primo 3x30-45". Panca 75kg obiettivo 8/8/7/7. Military 40kg 3x8 PRIMA delle trazioni (obiettivo 8/8/8). Trazioni +5kg 4 serie obiettivo 8/8/7/7. Rematore 72.5kg 3x10. Panca inclinata 22.5kg 3x10-12 senza drop set. Accessori come al solito |
-| Giovedì | 2026-10-15 | PAVIMENTO — STAZIONI A CARICO GARA, da solo. Farmers 24kg 150m unbroken (distanza fissata prima), sandbag 20kg 100m unbroken, wall ball 9kg x100 50-50, ski 4x500m media sotto 1:56 con la prima ripetuta non la più lenta, sled push 170kg sotto 2:00, sled pull 130kg sotto 3:10, burpee invariato, EMOM 12' a 175 m/min. Dito: controllo passivo |
-| Venerdì | 2026-10-16 | RIPETUTE 6x1km, rec 60", FLESSIBILI ("vediamo"). Cadono il giorno dopo le stazioni: conta solo il completamento, nessuna fascia di passo. Se le gambe lo permettono fino a 8 |
-| Sabato | 2026-10-17 | PROGRESSIVA 70' se c'è tempo (altrimenti salta, non si recupera): 25' a 5:30-5:40 (non sotto 5:30) → 15' a 5:10 → 20' a 4:42 → 10' a 4:15-4:25. Alert per segmento attivo. Se oggi non riesci, si fa domenica |
-| Domenica | 2026-10-18 | Se non fatta sabato: PROGRESSIVA 70' se c'è tempo (altrimenti salta, non si recupera): 25' a 5:30-5:40 (non sotto 5:30) → 15' a 5:10 → 20' a 4:42 → 10' a 4:15-4:25. Alert per segmento attivo. Poi CHECK-IN CON CLAUDE. Da chiudere: FISIO per caviglia sinistra e bacino (non ancora prenotato) |
+| Lunedì | 2026-10-19 | GAMBE. Prima (se non fatto) KNEE-TO-WALL sinistra vs destra, cm per piede. Squat 4x3 a piedi piatti: 107.5kg se le caviglie sono simmetriche (differenza max 2 cm, tallone giù, piede non rotola dentro), altrimenti 105kg. RDL 95kg 3x6 CON STRAP. Bulgaro 30kg 2x8-10 per gamba. Affondi sandbag 20kg 2x50m. Hip thrust 55kg 3x8-10. Leg curl 37.5kg 3x8. Finale 3x1km a 4:30, rec 1' |
+| Martedì | 2026-10-20 | PROGRESSIVA 70' (spostata da domenica): 25' a 5:30-5:40 (non sotto 5:30) → 15' a 5:10 → 20' a 4:42 → 10' a 4:15-4:25. Alert per segmento attivo |
+| Mercoledì | 2026-10-21 | UPPER. Trazioni +5kg 4x6-8 per prime. Rematore 72.5kg 3x10 CON STRAP. Panca 77.5kg 5x4. Military manubri da seduto 18kg per mano 3x8-10. Core in superserie nei recuperi. Accessori come al solito |
+| Giovedì | 2026-10-22 | SOGLIA B: 3x3km a 4:15-4:20, rec 90", passo fisso dalla prima. Poi 4-5 allunghi da 20" |
+| Venerdì | 2026-10-23 | RIPOSO (impegni) |
+| Sabato | 2026-10-24 | MEZZA A: 4 giri, ognuno 1km a 4:30-4:35 e subito dopo una stazione: ski 1000m → sled push 170kg 50m → sled pull 130kg 50m → burpee broad jump 80m. Entri in stazione di corsa e riparti subito. Sled su 45m se la palestra non arriva a 50. Col compagno se c'è, da solo se no |
+| Domenica | 2026-10-25 | OFF (impegni). CHECK-IN CON CLAUDE, anche breve. Da chiudere: FISIO per caviglia sinistra e bacino (non ancora prenotato) |
