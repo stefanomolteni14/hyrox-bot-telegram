@@ -4,8 +4,8 @@ Aggiornato durante il check-in settimanale (vedi Personal/Hyrox/log-settimanale.
 
 | Giorno | Data | Sessione |
 |---|---|---|
-| Lunedì | 2026-10-19 | GAMBE. Prima (se non fatto) KNEE-TO-WALL sinistra vs destra, cm per piede. Squat 4x3 a piedi piatti: 107.5kg se le caviglie sono simmetriche (differenza max 2 cm, tallone giù, piede non rotola dentro), altrimenti 105kg. RDL 95kg 3x6 CON STRAP. Bulgaro 30kg 2x8-10 per gamba. Affondi sandbag 20kg 2x50m. Hip thrust 55kg 3x8-10. Leg curl 37.5kg 3x8. Finale 3x1km a 4:30, rec 1' |
-| Martedì | 2026-10-20 | PROGRESSIVA 70' (spostata da domenica): 25' a 5:30-5:40 (non sotto 5:30) → 15' a 5:10 → 20' a 4:42 → 10' a 4:15-4:25. Alert per segmento attivo |
+| Lunedì | 2026-10-19 | SALTATO (colloquio e impegni). Le gambe sono state recuperate martedì |
+| Martedì | 2026-10-20 | GAMBE (recuperate dal lunedì, fatte). Squat 4x3 a piedi piatti, RDL 95kg 3x6 CON STRAP, bulgaro 30kg 2x8-10, affondi sandbag 20kg 2x50m, hip thrust 55kg 3x8-10, leg curl 37.5kg 3x8, finale 3x1km a 4:30 rec 1'. La progressiva è saltata: non si recupera |
 | Mercoledì | 2026-10-21 | UPPER. Trazioni +5kg 4x6-8 per prime. Rematore 72.5kg 3x10 CON STRAP. Panca 77.5kg 5x4. Military manubri da seduto 18kg per mano 3x8-10. Core in superserie nei recuperi. Accessori come al solito |
 | Giovedì | 2026-10-22 | SOGLIA B: 3x3km a 4:15-4:20, rec 90", passo fisso dalla prima. Poi 4-5 allunghi da 20" |
 | Venerdì | 2026-10-23 | RIPOSO (impegni) |
