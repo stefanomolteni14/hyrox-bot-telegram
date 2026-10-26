@@ -4,10 +4,10 @@ Aggiornato durante il check-in settimanale (vedi Personal/Hyrox/log-settimanale.
 
 | Giorno | Data | Sessione |
 |---|---|---|
-| Lunedì | 2026-10-19 | SALTATO (colloquio e impegni). Le gambe sono state recuperate martedì |
-| Martedì | 2026-10-20 | GAMBE (recuperate dal lunedì, fatte). Squat 4x3 a piedi piatti, RDL 95kg 3x6 CON STRAP, bulgaro 30kg 2x8-10, affondi sandbag 20kg 2x50m, hip thrust 55kg 3x8-10, leg curl 37.5kg 3x8, finale 3x1km a 4:30 rec 1'. La progressiva è saltata: non si recupera |
-| Mercoledì | 2026-10-21 | UPPER. Trazioni +5kg 4x6-8 per prime. Rematore 72.5kg 3x10 CON STRAP. Panca 77.5kg 5x4. Military manubri da seduto 18kg per mano 3x8-10. Core in superserie nei recuperi. Accessori come al solito |
-| Giovedì | 2026-10-22 | SOGLIA B: 3x3km a 4:15-4:20, rec 90", passo fisso dalla prima. Poi 4-5 allunghi da 20" |
-| Venerdì | 2026-10-23 | RIPOSO (impegni) |
-| Sabato | 2026-10-24 | MEZZA A: 4 giri, ognuno 1km a 4:30-4:35 e subito dopo una stazione: ski 1000m → sled push 170kg 50m → sled pull 130kg 50m → burpee broad jump 80m. Entri in stazione di corsa e riparti subito. Sled su 45m se la palestra non arriva a 50. Col compagno se c'è, da solo se no |
-| Domenica | 2026-10-25 | OFF (impegni). CHECK-IN CON CLAUDE, anche breve. Da chiudere: FISIO per caviglia sinistra e bacino (non ancora prenotato) |
+| Lunedì | 2026-10-26 | OFF (donazione di sangue al mattino). Le gambe slittano a martedì |
+| Martedì | 2026-10-27 | GAMBE. Squat 4x3 a piedi piatti 105kg, RDL 100kg 3x6 CON STRAP, bulgaro 32kg 2x8-10, affondi sandbag 30kg 2x50m, hip thrust 55kg 3x8-10, leg curl 37.5kg 3x8, finale 3x1km a 4:30 rec 1'. Se nel riscaldamento le gambe sono vuote (30h dalla donazione) il finale salta e i pesi restano. Peso e girovita a digiuno al mattino |
+| Mercoledì | 2026-10-28 | UPPER. Trazioni +5kg 4x6-8 per prime (obiettivo 8 su tutte). Rematore 75kg 3x10 CON STRAP. Panca 77.5kg 5x4. Military manubri da seduto 18kg per mano 3x8-10, schienale appoggiato. Core in superserie nei recuperi. Accessori come al solito |
+| Giovedì | 2026-10-29 | SOGLIA A: 8x1km a 4:05-4:10, rec 60", passo fisso dalla prima. Poi 4-5 allunghi da 20". Se alla 4ª ripetuta il passo è sopra 4:12 o la FC oltre 180, chiudi a 6 ripetute (donazione di lunedì) |
+| Venerdì | 2026-10-30 | RIPOSO prima della mezza B |
+| Sabato | 2026-10-31 | MEZZA B: 4 giri, ognuno 1km a 4:30-4:35 e subito dopo una stazione: row 1000m → farmers 200m 24kg per mano → affondi sandbag 20kg 100m → wall ball 100 a 6kg sul bersaglio da 3m. Entri in stazione di corsa e riparti subito. Da solo metà di ogni stazione (row 500, farmers 100, affondi 50, wall ball 50); col compagno stazioni divise e cambi provati. Prima: pre-test ginocchio come il 24/10 |
+| Domenica | 2026-11-01 | PROGRESSIVA 70': blocchi 25/15/20/10 a 5:39 / 5:08 / 4:42 / 4:15-4:25. CHECK-IN CON CLAUDE: peso e girovita a digiuno. Da chiudere: FISIO per caviglia sinistra e bacino (non ancora prenotato) |
