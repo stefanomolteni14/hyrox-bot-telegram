@@ -4,10 +4,10 @@ Aggiornato durante il check-in settimanale (vedi Personal/Hyrox/log-settimanale.
 
 | Giorno | Data | Sessione |
 |---|---|---|
-| Lunedì | 2026-11-09 | SALTATO: impegni tutto il giorno. Gambe slittate a martedì |
-| Martedì | 2026-11-10 | FATTA: gambe (squat 105kg 4/4/3/3, hip thrust 10/8/8, il resto come la settimana prima) |
-| Mercoledì | 2026-11-11 | UPPER: trazioni +5kg, rematore 75kg, panca 80kg, military 20kg per mano, inclinata 22.5kg. FISIO (caviglia sinistra, bacino, ginocchio destro): porta le Asics Superblast 2. PESO E GIROVITA a digiuno al risveglio, prima di tutto |
-| Giovedì | 2026-11-12 | FATTA: soglia sul tapis, 500m riscaldamento, 3km a 4:15, pausa 3' (invece di 1'30"), 3km a 4:20, defaticamento in camminata. FC media 168, max 188 |
-| Venerdì | 2026-11-13 | FATTA: 50' di cyclette easy al posto del riposo. Peso e girovita NON fatti (saltati dal 25/10) |
-| Sabato | 2026-11-14 | FATTA ALTRA SEDUTA: non la mezza simulazione ma una scheda col compagno di gara, 3 giri con 3' di pausa, dati individuali: 300m run 3:40, 500m ski, 300m run 3:40, 800m row, 15 burpee broad jump, 1,5km bici, 40m sled push 200kg, 60m farmer, 25 wall ball, 1km run 4:44. Tempi dei 3 giri: 26'11" / 27'46" / 28'18" (pause 3'05" e 3'29"). Nel 3° giro affondi 30kg al posto della slitta occupata. Ginocchio ok (HIIT 92' su Garmin, FC media 159, max 192). Mezza A non fatta e non si rifà (deciso il 14/11): il dato lo darà la simulazione del 21/11, dove vanno presi i tempi per stazione e i Roxzone |
-| Domenica | 2026-11-15 | AEROBICO FACILE 45-60': corsa a 5:39 o bici sotto FC 134, a scelta (niente progressiva). A FINE SEDUTA ROUTINE BANDELLETTA. CHECK-IN CON CLAUDE: fine blocco upper e scheda della settimana 15. Sabato 21/11 simulazione completa al Workout Bareggio |
+| Lunedì | 2026-11-16 | GAMBE RIDOTTE: squat 105kg 3x3, RDL 100 2x6, bulgaro 32 2x8, hip thrust 55 3x8-10, leg curl 37.5 3 serie (affondi tolti). FINALE 3x1km a 4:30 rec 1' con le scarpe in carbonio, concentrato. CORE 8' subito dopo i pesi. Video squat da dietro. Mobilità del fisio (90-90 switch e lift-off) |
+| Martedì | 2026-11-17 | RIPOSO o 30' easy in bici sotto FC 134. Mobilità del fisio (90-90 switch e lift-off) |
+| Mercoledì | 2026-11-18 | UPPER IN MANTENIMENTO: trazioni +5kg 3x6, rematore 72.5kg 3x10 puliti, panca 80kg 4x4, military 20kg per mano 2x10. Niente cedimento, 1-2 rip in canna. Mobilità del fisio |
+| Giovedì | 2026-11-19 | RICHIAMO SOGLIA sul tapis: 10' riscaldamento, 4x1km a 4:05-4:10 rec 60", 4 allunghi da 20", defaticamento. Se hai dormito meno di 5h o HRV sotto 52: 30' easy. Mobilità del fisio |
+| Venerdì | 2026-11-20 | RIPOSO. AL RISVEGLIO A DIGIUNO: PESO E GIROVITA. Mobilità e routine bandelletta. Prepara scarpe in carbonio e borraccia. Niente alcol, a letto presto |
+| Sabato | 2026-11-21 | SIMULAZIONE COMPLETA al Workout Bareggio: 8km + 8 stazioni. Orologio con GIRO A OGNI CAMBIO (entrata e uscita stazione) per avere corsa, stazioni e Roxzone separati. Corsa a 4:30-4:35, primo km non sotto 4:25. Stazioni a passo gara, non a record. Colazione 2-3 ore prima |
+| Domenica | 2026-11-22 | AEROBICO FACILE 40-45': bici sotto FC 134 o corsa a 5:39. CHECK-IN CON CLAUDE: numeri della simulazione, target 65', scheda della prima settimana di taper |
